@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Electron Builder Cache
+**/electron-builder/
+
+# Output directory for Electron builds
+**/dist/
+**/dist_electron/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS Finder directory attributes
+.DS_Store
+
+# Windows directory attributes
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# GitHub files
+.github/
+.gitignore
+
+# Other
+exports/
