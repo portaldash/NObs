@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NObs</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      background-color: #1a1a1a
+    }
+    #url-input {
+      width: 100%;
+      padding: 10px;
+      font-family: "Urbanist", sans-serif;
+      border-radius: 5px;
+      
+    }
+    #status {
+      margin-top: 0px;
+      color: red;
+      font-family: "Urbanist", sans-serif;
+    }
+    #header {
+      color: white;
+      font-size: 30px;
+      font-family: "Urbanist", sans-serif;
+    }
+    #download-button {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      background-color: #4CAF50;
+      font-family: "Urbanist", sans-serif;
+      font-size:17px;
+      padding:16px 50px;
+      text-decoration:none;
+      border:1px solid #18ab29;
+      cursor: pointer;
+    }
+    
+    #download-button:hover{
+      background-color: #39bd3e;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 id="header">NObs Downloader</h1>
+  <input type="text" id="url-input" placeholder="Enter video URL" />
+  <button id="download-button">Download</button>
+  <div id="status"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
