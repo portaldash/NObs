@@ -29,4 +29,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for using NObs!
+Thank you for using NObs !
