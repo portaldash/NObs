@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.video-downloader
+productName: Video Downloader
+files:
+  - filter:
+      - main.js
+      - index.html
+      - renderer.js
+      - assets/**/*
+win:
+  target: nsis
+  icon: assets/icon.ico
+electronVersion: 31.3.1
