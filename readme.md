@@ -22,7 +22,7 @@
 ## Contributing
 
 If you have suggestions or improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
-Download the repo as a zip, and run `npm install electron` and `npm start`. to package, just run `npm run dist`
+Download the repo as a zip, and run `npm install electron` and `npm start` in that location. To package, just run `npm run dist`.
 
 ## License
 
